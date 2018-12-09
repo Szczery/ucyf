@@ -1,0 +1,7 @@
+v 4
+file . "wave_gen.vhd" "dc6167ec3a5cb545679b4c5727c482a65669dd9a" "20181209233920.194":
+  entity wave_gen at 1( 0) + 0 on 157;
+  architecture wave_gen_arc of wave_gen at 15( 225) + 0 on 158;
+file . "wave_gen_tb.vhd" "01bb0f70384b9b435fcb078bfde5c403393ea8f4" "20181209233920.193":
+  entity wave_gen_tb at 1( 0) + 0 on 155;
+  architecture wave_gen_tb_arc of wave_gen_tb at 8( 148) + 0 on 156;
