@@ -40,10 +40,12 @@ begin
 	begin
 		case pres_state is
 		when idle=>
+			load<='0';
 			if reset='1' then
 				next_state<=work;
 			end if;
 		when work=>
+			load<='0';
 			if high_counter/=1 then
 				w<='1';
 			elsif low_counter/=1 then
@@ -53,7 +55,7 @@ begin
 		end case;
 	end process;
 
-	process(load)
+	process(load,clk)
 	begin
 		if load='1' then
 			thigh_reg<=thigh;
@@ -61,8 +63,10 @@ begin
 			thigh_reg<=high_counter;
 			tlow_reg<=low_counter;
 		elsif load='0' then
-			high_counter<=high_counter-1;
-			low_counter<=low_counter-1;
+			if rising_edge(clk) then
+				high_counter<=high_counter-1;
+				low_counter<=low_counter-1;
+			end if;
 		end if;
 	end process;
 end wave_gen_arc;
