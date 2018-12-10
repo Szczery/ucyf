@@ -1,0 +1,4 @@
+v 4
+file . "wave_gen.vhd" "1d28f301edba4e7ab2de3902304824bf3f028f43" "20181210001705.025":
+  entity wave_gen at 1( 0) + 0 on 11;
+  architecture wave_gen_arc of wave_gen at 15( 175) + 0 on 12;
