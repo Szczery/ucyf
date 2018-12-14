@@ -1,0 +1,7 @@
+v 4
+file . "sALU.vhd" "db9eb7f2a5340d82a82689e90bca7aa4ffc51d98" "20181214094129.591":
+  entity salu at 1( 0) + 0 on 23;
+  architecture salu_arc of salu at 15( 453) + 0 on 24;
+file . "sALU_tb.vhd" "f6bf27f8ff815c357ae6bfd3ebd15ef7f8423a78" "20181214094129.592":
+  entity salu_tb at 1( 0) + 0 on 25;
+  architecture salu_tb_arc of salu_tb at 7( 76) + 0 on 26;
