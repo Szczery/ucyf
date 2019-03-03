@@ -1,0 +1,202 @@
+$date
+  Sun Mar  3 21:03:00 2019
+$end
+$version
+  GHDL v0
+$end
+$timescale
+  1 fs
+$end
+$var reg 1 ! clock $end
+$var reg 1 " reset $end
+$var reg 1 # enable_load $end
+$var reg 1 $ enable_write $end
+$var reg 8 % din[7:0] $end
+$var reg 8 & dout[7:0] $end
+$var reg 2 ' write_address[1:0] $end
+$var reg 2 ( load_address[1:0] $end
+$scope module mem $end
+$var reg 2 ) write_address[1:0] $end
+$var reg 2 * load_address[1:0] $end
+$var reg 8 + din[7:0] $end
+$var reg 1 , enable_write $end
+$var reg 1 - enable_load $end
+$var reg 1 . reset $end
+$var reg 1 / clock $end
+$var reg 8 0 dout[7:0] $end
+$var reg 8 1 reg1[7:0] $end
+$var reg 8 2 reg2[7:0] $end
+$var reg 8 3 reg3[7:0] $end
+$var reg 8 4 reg4[7:0] $end
+$var reg 8 5 oreg1[7:0] $end
+$var reg 8 6 oreg2[7:0] $end
+$var reg 8 7 oreg3[7:0] $end
+$var reg 8 8 oreg4[7:0] $end
+$scope module mux1 $end
+$var reg 1 9 enable $end
+$var reg 8 : a[7:0] $end
+$var reg 8 ; o1[7:0] $end
+$var reg 8 < o2[7:0] $end
+$var reg 8 = o3[7:0] $end
+$var reg 8 > o4[7:0] $end
+$var reg 2 ? sel[1:0] $end
+$upscope $end
+$scope module r1 $end
+$var reg 1 @ enable $end
+$var reg 1 A reset $end
+$var reg 8 B d[7:0] $end
+$var reg 8 C q[7:0] $end
+$var reg 8 D reg[7:0] $end
+$upscope $end
+$scope module r2 $end
+$var reg 1 E enable $end
+$var reg 1 F reset $end
+$var reg 8 G d[7:0] $end
+$var reg 8 H q[7:0] $end
+$var reg 8 I reg[7:0] $end
+$upscope $end
+$scope module r3 $end
+$var reg 1 J enable $end
+$var reg 1 K reset $end
+$var reg 8 L d[7:0] $end
+$var reg 8 M q[7:0] $end
+$var reg 8 N reg[7:0] $end
+$upscope $end
+$scope module r4 $end
+$var reg 1 O enable $end
+$var reg 1 P reset $end
+$var reg 8 Q d[7:0] $end
+$var reg 8 R q[7:0] $end
+$var reg 8 S reg[7:0] $end
+$upscope $end
+$scope module mux2 $end
+$var reg 1 T enable $end
+$var reg 1 U clock $end
+$var reg 8 V a[7:0] $end
+$var reg 8 W b[7:0] $end
+$var reg 8 X c[7:0] $end
+$var reg 8 Y d[7:0] $end
+$var reg 2 Z sel[1:0] $end
+$var reg 8 [ outp[7:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+0!
+1"
+0#
+0$
+b00110011 %
+bUUUUUUUU &
+b00 '
+b00 (
+b00 )
+b00 *
+b00110011 +
+0,
+0-
+1.
+0/
+bUUUUUUUU 0
+b00000000 1
+b00000000 2
+b00000000 3
+b00000000 4
+bUUUUUUUU 5
+bUUUUUUUU 6
+bUUUUUUUU 7
+bUUUUUUUU 8
+09
+b00110011 :
+b00000000 ;
+b00000000 <
+b00000000 =
+b00000000 >
+b00 ?
+0@
+1A
+b00000000 B
+bUUUUUUUU C
+bUUUUUUUU D
+0E
+1F
+b00000000 G
+bUUUUUUUU H
+bUUUUUUUU I
+0J
+1K
+b00000000 L
+bUUUUUUUU M
+bUUUUUUUU N
+0O
+1P
+b00000000 Q
+bUUUUUUUU R
+bUUUUUUUU S
+0T
+0U
+bUUUUUUUU V
+bUUUUUUUU W
+bUUUUUUUU X
+bUUUUUUUU Y
+b00 Z
+bUUUUUUUU [
+#10000000
+1!
+0"
+0.
+1/
+0A
+0F
+0K
+0P
+1U
+#15000000
+1$
+1,
+b00110011 1
+b00000000 5
+b00000000 6
+b00000000 7
+b00000000 8
+19
+b00110011 ;
+1@
+b00110011 B
+b00000000 C
+b00000000 D
+1E
+b00000000 H
+b00000000 I
+1J
+b00000000 M
+b00000000 N
+1O
+b00000000 R
+b00000000 S
+b00000000 V
+b00000000 W
+b00000000 X
+b00000000 Y
+#20000000
+0!
+0/
+0U
+#30000000
+1!
+1#
+b00000000 &
+1-
+1/
+b00000000 0
+1T
+1U
+b00000000 [
+#40000000
+0!
+0/
+0U
+#50000000
+1!
+1/
+1U
